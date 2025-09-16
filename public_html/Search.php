@@ -14,10 +14,10 @@
 </script>
     <title>Image Search on web and mobile</title>
     <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
     <!-- Custom fonts for this template -->
-    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet" type="text/css">
+    <link href="css/font-awesome/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="css/simple-line-icons.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
     <!-- Custom styles for this template -->
     <link href="css/landing-page.min.css" rel="stylesheet">
@@ -117,12 +117,12 @@
     <!-- Navigation -->
       <nav class="navbar navbar-dark bg-dark static-top">
         <div class="container">
-            <a class="navbar-brand" href="reverse_image_search">Image Search</a>
-             <a href="home">Products</a>
+            <a class="navbar-brand" href="reverse_image_search.php">Image Search</a>
+             <a href="home.php">Products</a>
                 <a href="#">Future Upcomings</a>
-                <a href="about_us">About Us</a>
-                <a href="contact_us">Contact</a>
-                <a href="privacy_policy">Privacy Policy</a>
+                <a href="about_us.php">About Us</a>
+                <a href="contact_us.php">Contact</a>
+                <a href="privacy_policy.php">Privacy Policy</a>
         </div>
     </nav>
     
@@ -271,7 +271,7 @@
                  <div class="col-lg-6 h-100 text-center text-lg-left my-auto">
                     <ul class="list-inline mb-2">
                         <li class="list-inline-item">
-                            <a href="home">Products</a>
+                            <a href="home.php">Products</a>
                         </li>
                         <li class="list-inline-item">&sdot;</li>
                         <li class="list-inline-item">
@@ -279,15 +279,15 @@
                         </li>
                         <li class="list-inline-item">&sdot;</li>
                         <li class="list-inline-item">
-                            <a href="about_us">About Us</a>
+                            <a href="about_us.php">About Us</a>
                         </li>
                         <li class="list-inline-item">&sdot;</li>
                         <li class="list-inline-item">
-                            <a href="contact_us">Contact</a>
+                            <a href="contact_us.php">Contact</a>
                         </li>
                         <li class="list-inline-item">&sdot;</li>
                         <li class="list-inline-item">
-                            <a href="privacy_policy">Privacy Policy</a>
+                            <a href="privacy_policy.php">Privacy Policy</a>
                         </li>
                     </ul>
                     <p class="text-muted small mb-4 mb-lg-0">&copy; checkduplicateimage.online 2023. All Rights Reserved.</p>
@@ -339,8 +339,8 @@
     </footer>
 
     <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
     <div style="margin-top: 200px;">
         <?php
         session_start();

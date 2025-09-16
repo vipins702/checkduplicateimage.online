@@ -1,14 +1,18 @@
 <?php
 session_start();
+
+// Enable error reporting for debugging
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
+
 $target_dir = "uploads/";
 $target_file = $target_dir . basename($_FILES["fileToUpload"]["name"]);
+
 if(empty($_FILES["fileToUpload"]["name"])){
-$message = "Please choose file to upload.";
-//ob_start();
-echo "<script type='text/javascript'>alert('$message');</script>";
-//header("Location: http://imagesearch.online/");
-//ob_end_flush();
-//exit;
+    $message = "Please choose file to upload.";
+    echo "<script type='text/javascript'>alert('$message');</script>";
+    echo "<a href='javascript:history.back()'>Go Back</a>";
+    exit;
 }
 $uploadOk = 1;
 $imageFileType = strtolower(pathinfo($target_file,PATHINFO_EXTENSION));
