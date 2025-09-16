@@ -1,0 +1,54 @@
+# Uploaded files - exclude user uploads for privacy
+public_html/uploads/*
+!public_html/uploads/.htaccess
+
+# Environment and configuration files
+.env
+config.php
+database.php
+
+# Logs and temporary files
+*.log
+error_log
+*.tmp
+*.temp
+*.cache
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# PHP specific
+composer.phar
+vendor/
+.phpunit.result.cache
+
+# Backup files
+*.bak
+*.backup
+*_backup
+*_old
+
+# Sensitive data
+passwords.txt
+secrets.txt
+*.key
+*.pem
+
+# Large files that shouldn't be in git
+*.zip
+*.rar
+*.tar.gz
+*.7z
