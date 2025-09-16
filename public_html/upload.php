@@ -68,7 +68,7 @@ if ($uploadOk == 0) {
     //echo $_SESSION['id'];
     //http://imagesearch.online/uploads/city.jpg
     //header("Location: https://www.google.com/searchbyimage?&image_url=http://imagesearch.online/uploads/". basename( $_FILES["fileToUpload"]["name"]).""); 
-    header("Location: https://checkduplicateimage.online/Search.php"); 
+    header("Location: Search.php"); 
 exit();
 }
 ?>
